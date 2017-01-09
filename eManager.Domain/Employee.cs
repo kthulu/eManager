@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace eManager.Domain
 {
-    public class Class1
+    public class Employee
     {
+        public virtual int Id { get; set; }
+        public virtual string Name { get; set; }
+       
     }
 }
